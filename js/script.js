@@ -4,4 +4,9 @@ const lampOn = document.getElementById('lamp-on');
 onOff.addEventListener('click', function() {
     lampOn.classList.toggle('none');
     lampOff.classList.toggle('none');
+    if (lampOff.classList.contains('none')) {
+        onOff.innerText = 'Spegni';
+    } else {
+        onOff.innerText = 'Accendi';
+    }
 })
