@@ -14,3 +14,7 @@
 .none{
     display: none;
 }
+
+.scaleX {
+    transform: scaleX(-1);
+}
